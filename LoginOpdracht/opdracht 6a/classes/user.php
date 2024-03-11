@@ -1,7 +1,8 @@
 <?php
     // Functie: classdefinitie User 
-    // Auteur: Wigmans
-    require_once 'classes/Database.php';
+    // Auteur: Shondrique
+   // require_once 'classes/Database.php';
+    namespace LoginOpdracht\classes;
 
     class User{
 

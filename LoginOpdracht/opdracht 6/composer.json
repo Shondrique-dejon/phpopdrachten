@@ -1,5 +1,5 @@
 {
-    "name": "shoni/test",
+    "name": "shoni/opdracht_6a",
     "require": {
         "phpunit/phpunit": "^9.6"
     },
