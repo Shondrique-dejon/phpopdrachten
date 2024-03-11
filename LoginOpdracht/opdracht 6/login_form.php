@@ -1,4 +1,6 @@
 <?php
+	 // Functie: programma login OOP 
+    // Auteur: Shondrique  
 	
 	// Is de login button aangeklikt?
 	if(isset($_POST['login-btn']) ){

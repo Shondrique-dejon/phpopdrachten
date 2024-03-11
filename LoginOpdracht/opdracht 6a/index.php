@@ -1,6 +1,6 @@
 <?php
     // Functie: programma login OOP 
-    // Auteur: Wigmans
+    // Auteur: Shondrique
 
     // Initialisatie
 ?>

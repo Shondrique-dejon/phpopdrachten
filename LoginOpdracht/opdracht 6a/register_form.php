@@ -1,5 +1,7 @@
 <?php
-
+ // Functie: programma login OOP 
+    // Auteur: Shondrique
+	
 // Is de register button aangeklikt?
 if(isset($_POST['register-btn'])){
 	require_once('classes/user.php');

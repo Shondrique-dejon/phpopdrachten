@@ -1,4 +1,6 @@
 <?php
+ // Functie: programma login OOP 
+    // Auteur: Shondrique
 
 class Database {
     private $pdo;

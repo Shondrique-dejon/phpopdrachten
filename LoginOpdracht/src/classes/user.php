@@ -1,6 +1,7 @@
 <?php
     // Functie: classdefinitie User 
     // Auteur: Shondrique
+    
     //require_once 'classes/Database.php';
     namespace LoginOpdracht\classes;
 
