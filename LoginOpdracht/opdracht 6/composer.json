@@ -1,11 +1,11 @@
 {
-    "name": "sofie/opdracht_6a",
+    "name": "shoni/test",
     "require": {
         "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
-            "Sofie\\Opdracht6a\\": "src/"
+            "shoni\\Opdracht6a\\": "src/"
         }
     }
 }
