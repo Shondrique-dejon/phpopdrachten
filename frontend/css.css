@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*head*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+/*menu*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+/*login/register*/
+.login-section,
+.register-section {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+}
+.register {
+    background-color:gray;
+    border-radius: 30px;
+    text-align: center;
+
+}
+/*sections*/
+.sec-1 {
+    background-color:gray;
+    border-radius: 30px;
+    text-align: center;
+}
+.sec-2 {
+    background-color:gray;
+    border-radius: 30px;
+    text-align: center;
+}
+.sec-3 {
+    background-color:gray;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.sec-3 p {
+display: block;
+margin-bottom: 20px; /* Adds 20 pixels of space below each paragraph */
+}
+.sec-4 {
+    background-color:gray;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+   
+}
+/*footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
