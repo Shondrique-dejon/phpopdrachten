@@ -1,0 +1,16 @@
+{
+    "name": "shoni/login",
+    "autoload": {
+        "psr-4": {
+            "Login\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shoni"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
