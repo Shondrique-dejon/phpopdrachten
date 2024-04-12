@@ -1,0 +1,35 @@
+@import 'colors';
+
+.navbar__menu__bars__menu {
+    list-style: none;
+    text-align: center;
+    margin-right: 24px;
+  }
+  
+    .navbar__menu__bars__menu {
+      display: none;
+    }
+  
+  .navbar__menu__bars__menu--links {
+    color: $dark;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+  }
+  
+  .navbar__menu a {
+    color: $light;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 18px;
+  }
+  
+  .navbar__menu a:hover {
+    background-color: darkolivegreen;
+    border-radius: 10%;
+  }
+  
+  .navbar__menu--links {
+    padding: 8px;
+    display: block;
+  }

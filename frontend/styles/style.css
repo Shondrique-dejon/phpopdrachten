@@ -1,0 +1,261 @@
+.navbar__menu__bars__menu {
+  list-style: none;
+  text-align: center;
+  margin-right: 24px;
+}
+
+.navbar__menu__bars__menu {
+  display: none;
+}
+
+.navbar__menu__bars__menu--links {
+  color: #333;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.navbar__menu a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 18px;
+}
+
+.navbar__menu a:hover {
+  background-color: darkolivegreen;
+  border-radius: 10%;
+}
+
+.navbar__menu--links {
+  padding: 8px;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
+}
+
+body {
+  background-image: url("../image/pexels-stephan-seeber-1261728.jpg");
+}
+
+.navbar__menu {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  z-index: 10;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__menu__bars {
+    color: #333;
+    opacity: 1;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 2rem;
+  }
+}
+.hero_homepage {
+  display: flex;
+  justify-content: center;
+  padding-top: 16%;
+}
+
+.hero_homepage h1 {
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 5px 10px rgb(0, 0, 0);
+  mix-blend-mode: overlay;
+  box-shadow: 0 1px 5px rgb(0, 0, 0);
+}
+
+.button_homepage {
+  background-color: #333;
+  border-radius: 9px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button_text {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content_2 {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*artical texts*/
+h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.image_article {
+  padding-right: 180px;
+}
+
+.img {
+  width: 200px;
+  border-radius: 90%;
+  border: 5px solid #333;
+}
+
+.text_2 {
+  padding-left: 450px;
+}
+
+/*---*/
+@media screen and (max-width: 768px) {
+  .content,
+  .content_kennis--left,
+  .image_article,
+  .hero_homepage,
+  .hero,
+  .text_1,
+  .text_2 {
+    grid-template-columns: 1fr 1fr;
+    height: 5%;
+    padding: 0;
+    padding-top: 20%;
+    margin-bottom: 100px;
+  }
+  .navbar__menu {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+  }
+  .content--left,
+  .content_kennis--left,
+  .image_article,
+  .hero,
+  .text_1,
+  .text_2 {
+    height: 10px;
+  }
+  .navbar__menu {
+    padding: 0;
+    margin: 0;
+  }
+  .hero_homepage {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .text_1,
+  .text_2 {
+    padding-top: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content--left,
+  .content_kennis--left,
+  .image_article,
+  .hero_homepage,
+  .hero,
+  .text_1,
+  .text_2 {
+    padding: 12rem 0; /* Adjust padding as needed */
+    margin: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .navbar__menu {
+    padding: 0;
+    margin: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 280px) {
+  .content--left,
+  .content_kennis--left,
+  .image_article,
+  .hero_homepage,
+  .hero,
+  .text_2 {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar__menu {
+    padding: 0;
+    margin: 0;
+  }
+  .text_1,
+  .text_2 {
+    padding-top: 100%;
+  }
+}
+.content h2 {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.social-links img {
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+}
+
+.social-links article {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-links h2 {
+  margin-top: 0;
+}
+
+.social-links p {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #333;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} /*# sourceMappingURL=style.css.map */
