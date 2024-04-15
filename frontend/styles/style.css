@@ -23,7 +23,7 @@
 }
 
 .navbar__menu a:hover {
-  background-color: darkolivegreen;
+  background-color: gray;
   border-radius: 10%;
 }
 
@@ -38,11 +38,9 @@
   padding: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
 }
-
-body {
-  background-image: url("../image/pexels-stephan-seeber-1261728.jpg");
+body{
+  background-color: darkgray;
 }
-
 .navbar__menu {
   background: #333;
   display: flex;
@@ -101,6 +99,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 5%;
+  
   color: black;
   font-size: 15px;
   font-weight: bold;
@@ -111,7 +110,38 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
+/* percentage bar*/
 
+.percentage-bar {
+  width: 10%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin-top: 0px;
+}
+.percentage-fill {
+  height: 100%;
+  padding-left: 10%;
+  border-radius: 30%;
+  background-color: #4CAF50; 
+}
+.bar{
+  display: flex;
+  justify-content:  center;
+}
+
+.container_php{
+  margin-top: 2%;
+}
+.php_img{
+  border: 6px solid black;
+  border-radius: 10px;
+}
+.container_php_p{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 /*artical texts*/
 h2 {
   display: flex;
@@ -121,16 +151,17 @@ h2 {
 
 .image_article {
   padding-right: 180px;
+  padding: 10%;
 }
 
 .img {
   width: 200px;
-  border-radius: 90%;
   border: 5px solid #333;
 }
 
 .text_2 {
-  padding-left: 450px;
+  padding-left: 0px;
+  margin-top: 10%;
 }
 
 /*---*/
@@ -140,7 +171,6 @@ h2 {
   .image_article,
   .hero_homepage,
   .hero,
-  .text_1,
   .text_2 {
     grid-template-columns: 1fr 1fr;
     height: 5%;
@@ -157,7 +187,6 @@ h2 {
   .content_kennis--left,
   .image_article,
   .hero,
-  .text_1,
   .text_2 {
     height: 10px;
   }
@@ -165,15 +194,11 @@ h2 {
     padding: 0;
     margin: 0;
   }
-  .hero_homepage {
-    height: -moz-fit-content;
-    height: fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .text_1,
+ 
+ 
   .text_2 {
-    padding-top: 100%;
+    padding-top: 20%;
+    
   }
 }
 @media screen and (max-width: 500px) {
@@ -182,7 +207,6 @@ h2 {
   .image_article,
   .hero_homepage,
   .hero,
-  .text_1,
   .text_2 {
     padding: 12rem 0; /* Adjust padding as needed */
     margin: 0;
@@ -210,11 +234,12 @@ h2 {
     padding: 0;
     margin: 0;
   }
-  .text_1,
+  
   .text_2 {
     padding-top: 100%;
   }
 }
+
 .content h2 {
   font-size: 1rem;
   color: white;
